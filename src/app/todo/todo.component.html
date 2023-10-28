@@ -11,6 +11,7 @@
             </mat-form-field>
 
             <button
+class="btn1"
 *ngIf="!isEditEnabled"
               (click)="addTask()"
               mat-raised-button
@@ -118,14 +119,9 @@
                     >
                       <mat-icon>delete</mat-icon>
                     </button>
-<button
-                      (click)="deleteDone(i)"
-                      mat-button
+<span>   <mat-icon color="primary">check_circle</mat-icon></span>
 
-                      color="primary"
-                    >
-                      <mat-icon>check_circle</mat-icon>
-                    </button>
+
                 </div>
               </div>
             </div>
