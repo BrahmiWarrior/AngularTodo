@@ -38,7 +38,7 @@ class="btn1"
         <div class="row">
           <div class="col-md-4">
             <div class="example-container">
-              <h2>To Do <span *ngIf="tasks.length>0">{{-tasks.length}}</span></h2>
+              <h2 class="write" style="text-align: center; "  >To Do <span *ngIf="tasks.length>0">{{-tasks.length}}</span></h2>
 
               <div
                 cdkDropList
@@ -76,7 +76,7 @@ class="btn1"
           </div>
           <div class="col-md-4">
             <div class="example-container">
-              <h2>Inprogress <span *ngIf="inprogess.length>0">{{-inprogess.length}}</span></h2>
+              <h2 style="text-align: center;" >Inprogress <span *ngIf="inprogess.length>0">{{-inprogess.length}}</span></h2>
 
               <div
                 cdkDropList
@@ -101,7 +101,7 @@ class="btn1"
 
           <div class="col-md-4">
             <div class="example-container">
-              <h2>Done <span *ngIf="done.length>0">{{-done.length}}</span></h2>
+              <h2 style="text-align: center;" >Done <span *ngIf="done.length>0">{{-done.length}}</span></h2>
 
               <div
                 cdkDropList
